@@ -3,8 +3,8 @@ from steam_market_portfolio.retirever import Retriever
 from steam_market_portfolio.graph import plot_portfolio_balance
 
 
-username = 'your username'
-password = 'your password'
+username = 'your_username'
+password = 'your_password'
 
 fetcher = Fetcher(username, password)
 

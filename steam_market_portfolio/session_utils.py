@@ -45,7 +45,7 @@ def get_session_with_cookies(username, password):
 
     # Login with Selenium if no valid cookies
     options = Options()
-    options.headless = True
+    options.add_argument("--headless=new")
     driver = webdriver.Chrome(options=options)
     driver.set_window_size(800, 800)
     driver.get("https://steamcommunity.com/login/home/")
